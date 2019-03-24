@@ -13,6 +13,8 @@ import com.example.luci4.sqltesting.DatabaseContract.Entry;
 
 public class DatabaseProvider  extends ContentProvider {
 
+    //For providing filter on data entered
+
     public static final String LOG_TAG = DatabaseProvider.class.getSimpleName();
 
     public DatabaseHelper mDbHelper;
